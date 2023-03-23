@@ -1,0 +1,133 @@
+body {
+    background-color: #FCF8E8;
+    margin: 0;
+    text-align: center;
+    font-family: 'Neucha', 'EB Garamond', serif;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    font-size: 5rem;
+    color: #1C6758;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0px auto 30px auto;
+    color: #1C6758;
+    font-weight: normal;
+    
+}
+
+h3 {
+    color: #3D8361;
+}
+
+a {
+    color: #3D8361;
+    margin: auto 20px auto 20px;
+}
+
+p {
+    margin: 0 auto 0 auto;
+}
+
+.topContainer {
+    background-color: #94B49F;
+    padding-top: 230px;
+    padding-bottom: 120px;
+
+    position: relative;
+}
+
+.topCloud {
+    position: absolute;
+    right: 400px;
+    top: 45px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 350px;
+    top: 400px;
+}
+
+.skillRow {
+    width: 50%;
+    margin: 100px auto 100px auto; /*this centralises the item*/
+    text-align: left;
+}
+
+.time {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.read {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
+.profilePhoto {
+    width: 35%;
+    margin: 0px auto 30px auto;
+}
+
+hr {
+    border: none;
+    border-top: 10px dotted #DF7861;
+    width: 10%;
+}
+
+.skills {
+    margin: 50px auto 0px auto;
+}
+
+.contactMe {
+    margin: 50px auto 50px auto;
+}
+
+.bottomContainer {
+    background-color: #94B49F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.btn {
+    margin: 25px auto 0px auto;
+    display: inline-block;
+}
+
+.btn {
+    background: #94B49F;
+    background-image: -webkit-linear-gradient(top, #94B49F, #538263);
+    background-image: -moz-linear-gradient(top, #94B49F, #538263);
+    background-image: -ms-linear-gradient(top, #94B49F, #538263);
+    background-image: -o-linear-gradient(top, #94B49F, #538263);
+    background-image: linear-gradient(to bottom, #94B49F, #538263);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ECB390;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.footer-link {
+    display: inline-block;
+    margin: auto 30px 30px 30px;
+}
